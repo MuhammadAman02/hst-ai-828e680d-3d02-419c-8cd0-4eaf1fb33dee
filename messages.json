@@ -2,5 +2,9 @@
   {
     "role": "ai_message",
     "content": "Certainly! I'll create a page similar to the one shown in the image. The design is simple and clean, featuring a \"Hello World!\" message in blue and a welcome message in green. Let's implement this using React and Tailwind CSS.\n\n\n\nNow, let's update the `Index.tsx` file to create the page similar to the one in the image:\n\n\n\nThese changes should create a page that closely resembles the one in the image. The \"Hello World!\" text will be in blue, and the welcome message will be in green, centered on a white background.\n</HST-code>\n\nThe page has been created to match the image, with a blue \"Hello World!\" heading and a green welcome message."
+  },
+  {
+    "role": "ai_message",
+    "content": "I'll add a dark theme toggle to your application with a clean, modern design that persists the user's preference.\n\n\n\nNow let's create the theme toggle component:\n\n\n\nLet's update the Tailwind config to support dark mode:\n\n\n\nNow let's update the global CSS to include dark mode variables:\n\n\n@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap\");\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n  :root {\n    --background: 0 0% 100%;\n    --foreground: 222.2 84% 4.9%;\n    --card: 0 0% 100%;\n    --card-foreground: 222.2 84% 4.9%;\n    --popover: 0 0% 100%;\n    --popover-foreground: 222.2 84% 4.9%;\n    --primary: 221.2 83.2% 53.3%;\n    --primary-foreground: 210 40% 98%;\n    --secondary: 210 40% 96%;\n    --secondary-foreground: 222.2 84% 4.9%;\n    --muted: 210 40% 96%;\n    --muted-fore"
   }
 ]
